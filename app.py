@@ -114,8 +114,8 @@ def main():
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
-    CountryName = st.text_input("CountryName","Type Here",key='0')
-    StringencyLegacyIndexForDisplay = st.text_input("StringencyLegacyIndexForDisplay","Type Here",key='1')
+    CountryName = st.text_input("CountryName",key='0')
+    StringencyLegacyIndexForDisplay = st.text_input("StringencyLegacyIndexForDisplay",key='1')
     StringencyIndexForDisplay = st.text_input("StringencyIndexForDisplay","Type Here",key='2')
     StringencyIndex = st.text_input("StringencyIndex","Type Here",key='3')
     StringencyLegacyIndex = st.text_input("StringencyLegacyIndex","Type Here",key='4')
